@@ -1,0 +1,158 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,700,600);
+body {
+  margin-top: 2rem;
+  font-family: 'Lato', sans-serif;
+  background:#000;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.1rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*:active, *:focus {
+  border: 0;
+  outline: 0;
+}
+.Search.GitHub.Users {
+  width: 70%;
+  text-align: center;
+
+  padding-top: 24px;
+  margin: 0 auto;
+  border-radius: 28px;
+}
+.Search.GitHub.Users .title {
+  font-size: 40px;
+  line-height: 80px;
+  font-weight: bolder;
+  color: #11e7ff;
+}
+.searchbox__input {
+  height: 3rem;
+  width: 100%;
+  box-shadow: none;
+  border: none;
+  padding: 0 1rem;
+  color: #003d44;
+  border-radius: 0.2rem;
+}
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+.card {
+  position: relative;
+  background: #000000;
+  max-width: 20rem;
+  margin: 7rem auto 2rem;
+  border: solid 5px #09a;
+  border-radius: 0.4rem;
+  padding: 5.5rem 2.5rem 1rem;
+}
+
+.card__avatar {
+  position: absolute;
+  top: 0;
+  left: 5%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 10rem;
+  height: auto;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  border-radius: 50%;
+  background: #09a;
+  padding: 5px;
+  max-width: 100%;
+  transition: 0.2s;
+}
+
+.card__link {
+  color: #fff;
+  border-bottom: solid 2px #fff;
+  text-decoration: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size:28px;
+}
+.card__username {
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+  margin: 1rem auto;
+}
+dl {
+  margin: 0;
+  padding: 0;
+}
+dt {
+  font-weight: 900;
+  margin-bottom: 0.2rem;
+  font-size: 24px;
+}
+dt, dd {
+  text-align: center;
+}
+dd {
+  margin: 0 0 1rem 0;
+  font-size: 18px;
+}
+
+
+.searchbox {
+  max-width: 20rem;
+  margin: 1rem auto;
+}
+.searchbox__button {
+  width: 100%;
+  padding: 1rem 2rem;
+  border: none;
+  margin: 1rem 0 0 0;
+  background: #11e7ff;
+  color: #006b77;
+  font-weight: 700;
+  border-radius: 0.4rem;
+}
+
+@media(max-width: 768px){
+
+  .Search.GitHub.Users {
+    width: 100%;
+    text-align: center;
+    
+    padding-top: 24px;
+    margin: 0 auto;
+    border-radius: 28px;
+    padding: 0 12px;
+}
+.card__avatar {
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+.card__link {
+font-size: 24px;
+}
+dt {
+  font-weight: 900;
+  margin-bottom: 0.2rem;
+  font-size: 18px;
+}
+dd {
+  margin: 0 0 1rem 0;
+  font-size: 12px;
+}
+.Search.GitHub.Users .title {
+  font-size: 30px;
+  line-height: 46px;
+  font-weight: bolder;
+  color: #11e7ff;
+}
+
+}
